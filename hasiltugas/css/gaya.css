@@ -1,0 +1,33 @@
+body {
+	background-color: skyblue;
+	font-family: arial, helvecita, sans-serif;
+}
+
+#siswa {
+	border-collapse: collapse;
+	background-image: url(gam/apacok.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+
+	margin: auto;
+
+
+}
+.link:visited {
+	color: red;
+}
+.link {
+	color: green;
+	text-decoration: none;
+}
+#siswa {
+	font-size: 20px;
+	text-align: center;
+}
+#siswa td {
+	padding: 20px;
+}
