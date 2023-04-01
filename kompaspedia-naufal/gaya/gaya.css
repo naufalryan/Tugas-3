@@ -1,0 +1,83 @@
+body {
+    /*background halaman web */
+    background-color: rosybrown;
+}
+
+.wrapper {
+    background-color:  burlywood;
+
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: bisque;
+}
+.sidebar {
+    width: 600px;
+    float: left;
+    
+}
+.content {
+    width: 600px;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+#logo {
+    float: left;
+    width: 200px;
+    height: aouto;
+    padding: 20px;
+}
+#logo img {
+    max-width: 100%;
+    height: auto;
+}
+#menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: right;
+    width: 720px;
+}
+#menu li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#menu li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #34495e;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+
+
+}
+.blog-content {
+    float: left;
+    max-width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+
+}
+.blog-content img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+.recent-article {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.recent-article ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
